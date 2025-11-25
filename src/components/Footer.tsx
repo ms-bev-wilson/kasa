@@ -10,7 +10,7 @@ export default function Footer() {
 		<div className="dFooter">
 			  <div className={MobileCheck() ? "sizemobile" : "sizedesktop"}>
 					<img className="whiteLogoIcon" alt="" src={WhiteLogo} />
-					<div className="kasaAllRights">© 2020 Kasa. All rights reserved</div>
+					<div className="kasaAllRights">© 2025 Kasa. All rights reserved</div>
 			  </div>
 		</div>
 	)
