@@ -14,8 +14,6 @@ export default function MobileCheck() {
         };
     }, []);
 
-    console.log("isMobile", isMobile);
-    console.log("window.innerWidth", window.innerWidth);
     return isMobile;
 }
 
