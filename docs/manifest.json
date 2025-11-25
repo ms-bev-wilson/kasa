@@ -1,11 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Kasa",
+  "name": "Kasa - Rental Properties",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect fill='%231a9b8e' width='64' height='64' rx='8'/><text x='32' y='45' font-size='36' font-weight='bold' fill='white' text-anchor='middle' font-family='Arial,sans-serif'>K</text></svg>",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/svg+xml"
     },
     {
       "src": "logo192.png",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#1a9b8e",
   "background_color": "#ffffff"
 }
