@@ -5,7 +5,7 @@ import './App.scss';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/kasa">
       <Routes />
     </Router>
   );
