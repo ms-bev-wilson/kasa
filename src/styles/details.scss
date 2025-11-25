@@ -1,0 +1,127 @@
+@media (min-width: 768px) and (max-width: 1440px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 76px;
+    width: 1240px;
+    max-height: 279px;
+  }
+  .details-accordion-header {
+    justify-content: space-between;
+    border: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    background-color: #ff6060;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 15px;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #fff;
+    width: 582px;
+  }
+  .details-accordion-header.active {
+    background-color: #ff6060;
+    width: 582px;
+  }
+  .details-caret {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  .details-caret.rotate {
+    transform: rotate(180deg);
+  }
+  .details-accordion-content {
+    max-height: 0;
+    overflow: hidden;
+  }
+  .details-accordion-content.open {
+    max-height: 500px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 142.6%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    align-items: flex-start;
+    padding: 20px 20px 20px;
+    background: rgba(247, 247, 247, 0.45);
+    border-radius: 10px 10px 5px 5px;
+    width: 548px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 142.6%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 76px;
+  }
+  .details-accordion-header {
+    justify-content: space-between;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    background-color: #ff6060;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    color: #fff;
+    width: 335px;
+  }
+  .details-accordion-header.active {
+    background-color: #ff6060;
+    width: 335px;
+  }
+  .details-caret {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  .details-caret.rotate {
+    transform: rotate(180deg);
+  }
+  .details-accordion-content {
+    max-height: 0;
+    overflow: hidden;
+  }
+  .details-accordion-content.open {
+    max-height: 500px; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 142.6%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    align-items: flex-start;
+    padding: 20px 20px 20px;
+    background: rgba(247, 247, 247, 0.45);
+    border-radius: 10px 10px 5px 5px;
+  }
+}

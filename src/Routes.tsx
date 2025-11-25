@@ -1,0 +1,25 @@
+import React from "react";
+import { useRoutes } from "react-router-dom";
+import Home from "./pages/Home/index";
+import NotFound from "./pages/NotFound";
+import RentalPropertyCard from "./pages/RentalPropertyCard/index";
+import About from "./pages/About/index";
+ 
+function ProjectRoutes() {
+    let element = useRoutes ([
+        { path: "/", element: <Home /> },
+        { path: "*", element: <NotFound /> },
+        {
+            path: "rentalpropertycard", 
+            element: <RentalPropertyCard />,
+        },
+        {
+            path: "about", 
+            element: <About />,
+        },
+    ]);
+ 
+    return element;
+};
+ 
+export default ProjectRoutes;
